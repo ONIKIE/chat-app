@@ -17,12 +17,41 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.header-name a{
+  color: #FAFAFA;
+  text-decoration: none;
+  
+}
+
+.create-room a{
+  color: deepskyblue;
+  padding: 14px;
+  border: solid 1px;
+  border-color: lightblue;
+  text-decoration: none;
+}
+
+
+}
 .rooms{
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.chat-room{
+  padding: 20px 20px 40px;
+}
+  
+.chatroom-name a{
+  color: white;
+  text-decoration: none;
 }
 
 .main-header{
